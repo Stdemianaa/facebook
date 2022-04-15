@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(252, 247, 247);
+}
+.parent{
+    display: flex;
+flex-direction: row;
+justify-content:space-between ;
+flex-wrap: wrap;
+
+}
+
+.facebook{
+
+width: 40%;
+margin-left: 10%;
+}
+.login{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow:  0px 0px 5px grey ;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+input{
+    background-color: rgb(234, 230, 230);
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: white;
+    margin-top: 10%;
+    word-spacing: 20px;
+    height: 300px;
+}
+.log{
+    background-color:#4267b2;
+    border-radius: 5px;
+    border-color: transparent;
+    height:30px;
+    width: 90%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.log a{
+    background-color:#4267b2;
+    color: white;
+}
+.create{
+    background-color:#42b72a;
+    border-radius:5px ;
+    height: 8vh;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.create a{
+    background-color:#42b72a;
+    color: white;
+
+}
+
+
+.cont
+{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    width: 100%;
+    height: 30vh;
+}
+.cont1 img{
+    width: 50%;
+    height: 100%;
+}
+.cont2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 236, 236);
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cont3{
+    background-color:#4267b2;
+    border-radius: 50%;
+    width: 40%;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: white;
+}
+.cont4{
+    background-color:white;
+    position: absolute;
+    bottom: 0px;
+    font-size: small;
+    color:#2b5cbf;
+    width: 100%;
+    text-align: center;
+}
+
